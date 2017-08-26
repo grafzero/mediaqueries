@@ -1,0 +1,46 @@
+@media (max-width:480px) {
+    body{
+        margin:0;
+    }
+    
+    #gallery {
+        width: 100%;
+    }
+    
+    #gallery figure {
+        width: 100%;
+    }
+}
+
+@media (min-width:481px) and (max-width:768px) {
+    #gallery {
+        width: 100%;
+    }
+    #gallery figure {
+        width: 100%;
+    }
+}
+
+@media (min-width:769px) and (max-width:992px) {
+    #gallery {
+        width: 100%;
+    }
+    
+    #gallery figure {
+        width: 49%;
+    }
+    
+}
+
+
+
+@media (min-width:993px)  {
+    #gallery {
+        width: 1024px;
+    }
+    
+    #gallery figure {
+        width: 33%;
+    }
+    
+}
